@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Engineering College</title>
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- 1. Navigation -->
+  <nav class="bg-blue-900 text-white px-6 py-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold">Engineering College</h1>
+    <ul class="flex gap-6">
+      <li><a href="#" class="hover:text-gray-300">Home</a></li>
+      <li><a href="#" class="hover:text-gray-300">About</a></li>
+      <li><a href="#" class="hover:text-gray-300">Programs</a></li>
+      <li><a href="#" class="hover:text-gray-300">Admissions</a></li>
+      <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- 2. Hero Section -->
+  <section class="bg-gray-100 flex flex-col md:flex-row items-center px-8 py-16">
+    <div class="flex-1">
+      <h2 class="text-4xl font-bold mb-4">Shaping Engineers for Tomorrow 🚀</h2>
+      <p class="mb-6 text-lg">Join our community of innovators, creators, and problem-solvers. Discover programs that prepare you for the future.</p>
+      <a href="#programs" class="bg-blue-900 text-white px-6 py-3 rounded-lg hover:bg-blue-800">Explore Programs</a>
+    </div>
+    <div class="flex-1 mt-8 md:mt-0">
+      <img src="./assets/hero.jpg" alt="College Campus" class="rounded-lg shadow-lg" />
+    </div>
+  </section>
+
+  <!-- 3. Programs Section -->
+  <section id="programs" class="px-8 py-16 bg-white">
+    <h3 class="text-3xl font-bold text-center mb-10">Our Programs</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg transition">
+        <img src="./assets/program1.jpg" alt="Computer Science" class="rounded mb-4">
+        <h4 class="text-xl font-semibold mb-2">Computer Science</h4>
+        <p>Learn cutting-edge technologies, AI, and software development.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg transition">
+        <img src="./assets/program2.jpg" alt="Mechanical Engineering" class="rounded mb-4">
+        <h4 class="text-xl font-semibold mb-2">Mechanical Engineering</h4>
+        <p>Build expertise in design, manufacturing, and robotics.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg transition">
+        <img src="./assets/program3.jpg" alt="Civil Engineering" class="rounded mb-4">
+        <h4 class="text-xl font-semibold mb-2">Civil Engineering</h4>
+        <p>Shape infrastructure and create sustainable solutions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Campus Life Section -->
+  <section class="px-8 py-16 bg-gray-50">
+    <h3 class="text-3xl font-bold text-center mb-10">Campus Life</h3>
+    <div class="grid md:grid-cols-4 gap-8 text-center">
+      <div>
+        <img src="./assets/campus-life.svg" alt="Hostel" class="mx-auto w-16 mb-2">
+        <h4 class="font-semibold">Hostels</h4>
+      </div>
+      <div>
+        <img src="./assets/campus-life.svg" alt="Library" class="mx-auto w-16 mb-2">
+        <h4 class="font-semibold">Library</h4>
+      </div>
+      <div>
+        <img src="./assets/campus-life.svg" alt="Sports" class="mx-auto w-16 mb-2">
+        <h4 class="font-semibold">Sports</h4>
+      </div>
+      <div>
+        <img src="./assets/campus-life.svg" alt="Labs" class="mx-auto w-16 mb-2">
+        <h4 class="font-semibold">Labs</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Footer -->
+  <footer class="bg-blue-900 text-white text-center px-8 py-6">
+    <p>📍 123 Engineering Road, City, Country</p>
+    <p>📞 +91 12345 67890 | ✉️ info@engineeringcollege.edu</p>
+    <div class="flex justify-center gap-6 mt-4">
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+      <a href="#">LinkedIn</a>
+    </div>
+    <p class="mt-4 text-sm">&copy; 2025 Engineering College. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
